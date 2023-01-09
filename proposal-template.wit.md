@@ -6,27 +6,9 @@
 
 [If you want to include examples of the API in use, these should be in the README and linked to from this file.]
 
-## api_type_one
+## `thread-id`
 
 ```wit
-/// Short description
-///
-/// Explanation for developers using the API.
-record api-type-one {
-    property1: u64,
-    property2: string,
-}
+/// Unique thread identifier.
+type thread-id = u32
 ```
-
-More rigorous specification details for the implementer go here, if needed.
-
-## api_function_one
-
-```wit
-/// Short description
-///
-/// Explanation for developers using the API.
-api-function-one: func() -> api-type-one
-```
-
-If needed, this would explain what a compliant implementation MUST do, such as never returning an earlier result from a later call.
